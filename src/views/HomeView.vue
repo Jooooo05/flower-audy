@@ -113,7 +113,7 @@ function btnNext2() {
         <!-- container ngejek audy -->
         <div v-if="ngejekAudy" class="flex flex-col items-center justify-center">
           <div class="w-[100px] h-[100px] rounded-full overflow-hidden mb-8">
-            <img src="@/assets/img/kasihbungalucu.jpeg" alt="">
+            <img src="@/assets/img/ngejek.jpeg" alt="">
           </div>
           <div class="">
             <p class="text-center pacifico-regular text-2xl text-slate-900 mb-4">DIH KO PEDE BANGET HAHAHA🤣</p>
@@ -128,7 +128,7 @@ function btnNext2() {
         <!-- card kalo audy mencet enggak -->
         <div v-if="jawabanEnggak" class="flex flex-col items-center justify-center">
         <div class="w-[100px] h-[100px] rounded-full overflow-hidden mb-8">
-          <img src="@/assets/img/kasihbungalucu.jpeg" alt="">
+          <img src="@/assets/img/berantemlucu.jpeg" alt="">
         </div>
         <div class="">
           <p :class="cantik == 0 ? '' : 'hidden'" class="text-xl text-slate-900 mb-6">Lohh kok gitu sihh, jawab ulangg gaak😤</p>
@@ -143,10 +143,10 @@ function btnNext2() {
         <!-- card audy cantik beneran -->
          <div v-if="audyCantik" class="flex flex-col items-center justify-center">
           <div class="w-[100px] h-[100px] rounded-full overflow-hidden mb-8">
-            <img src="@/assets/img/kasihbungalucu.jpeg" alt="">
+            <img src="@/assets/img/kasihbunga.jpeg" alt="">
           </div>
           <div class="">
-            <p class="text-center dancing-script-400 text-2xl text-slate-900 ">Iyaa audyy itu cantik bingiitttt tauu, tuh bukti fotonyaa cantik bangett</p>
+            <p class="text-center dancing-script-400 text-2xl text-slate-900 ">Iyaa audyy itu cantik bingiitttt tauu, tercantik di dunia dehh pokoknya</p>
             <div class="flex justify-center mt-2">
               <RouterLink to="/bunga" class="px-4 py-2 bg-orange-200 bg-opacity-25 border-2 rounded-md border-orange-300 hover:bg-opacity-60 ease-in duration-300">Ini ada sesuatu buat kamu</RouterLink>
             </div>
